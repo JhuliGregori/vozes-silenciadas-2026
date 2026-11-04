@@ -15,6 +15,15 @@ header:before{content:"";position:absolute;inset:0;pointer-events:none;backgroun
   h2 { font-size: 8.2vw; letter-spacing: -.035em; }
   header h1 { font-size: 12vw; }
 }
+
+/* Ajustes de tipografia para telas estreitas: sem compressão de caracteres. */
+@media (max-width: 600px) {
+  header h1, h2, .tile h3 { font-family: Arial, Helvetica, sans-serif; font-kerning: normal; font-variant-ligatures: none; letter-spacing: 0; }
+  header h1 { font-size: clamp(43px, 10.5vw, 62px); line-height: 1.18; overflow-wrap: normal; word-break: normal; }
+  h2 { font-size: clamp(30px, 7.8vw, 44px); line-height: 1.28; letter-spacing: 0; overflow-wrap: normal; word-break: normal; }
+  .tile h3 { font-size: 25px; line-height: 1.25; }
+  .lead { line-height: 1.45; }
+}
 </style><script defer src="config.js"></script></head><body>
 <header id="inicio"><nav><span>FM / 2026</span><a href="#projeto">Projeto</a><a href="#participar">Formulários</a><a href="#cronicas">Crônicas</a><a href="#autores">Autores</a><a href="#ebook">E-book</a></nav><div><div class="eyebrow">Revista de crônicas · Turma 311</div><h1>Fora da<br><span class="outline">Margem.</span></h1><div class="lead">Histórias que atravessam os muros da escola.</div></div><div class="eyebrow">Turma 311 · E.E.E.M. Profª Margot T. N. Giacomazzi · Canoas/RS</div></header>
 <main><section id="projeto"><div class="stamp">01 / Manifesto</div><h2>A literatura<br>não termina<br>no portão<br>da escola.</h2><p>Uma conversa no ônibus. Uma lembrança de infância. Uma injustiça que ninguém percebeu. Um acontecimento tão comum que quase passou despercebido.</p><p>Fora da Margem é uma revista literária coletiva produzida pelos estudantes da turma 311 da E.E.E.M. Profª Margot T. N. Giacomazzi, de Canoas (RS), como parte do projeto de estágio “Vozes em circulação: quem pode falar, escrever e ser ouvido?”, elaborado e desenvolvido em 2026 pela professora estagiária Jhuli Grégori, do curso de Letras da Universidade Federal do Rio Grande do Sul (UFRGS). Durante as aulas, os estudantes leram e discutiram crônicas de José Falero e letras dos Racionais MC’s, explorando diferentes formas de narrar, observar e interpretar o mundo. A revista reúne crônicas de autoria dos estudantes, que podem escrever sobre assuntos variados, com liberdade de tema, linguagem e perspectiva.</p><blockquote>Quem conta uma história também escolhe o que não será esquecido.</blockquote><p><small>O título Fora da Margem, o subtítulo e a identidade visual Pink Noise são propostas editoriais abertas à votação da turma.</small></p></section>

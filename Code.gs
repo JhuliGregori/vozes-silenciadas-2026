@@ -60,3 +60,14 @@ function criarProjeto() {
   Logger.log('FORMULÁRIO: '+form.getPublishedUrl());
   Logger.log('PLANILHA: '+ss.getUrl());
 }
+
+/**
+ * Solicita as permissões necessárias sem criar arquivos de teste.
+ * Execute esta função antes de criarProjeto().
+ * O Apps Script pode solicitar autorização ao executá-la.
+ */
+function autorizarProjeto() {
+  FormApp.getActiveForm();
+  SpreadsheetApp.getActiveSpreadsheet();
+  Logger.log('Função de autorização executada.');
+}

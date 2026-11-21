@@ -1,4 +1,3 @@
-/* Edição aprovada em 21 de novembro de 2026. */
 window.VOZES_CONFIG = {
   "formVotacao": "https://docs.google.com/forms/d/1BLSX9y6ta_XyNPFyb38hblPDUfioGnXrdkc1sCBl5vU/viewform",
   "formCronica": "https://docs.google.com/forms/d/e/1FAIpQLSfQuIgFkugF1ujZrq-dxsZIX9rHz8QdNEgJ56ScjTaeuETsRg/viewform",
@@ -48,35 +47,51 @@ window.VOZES_CONFIG = {
   "autores": [
     {
       "nome": "Giseli Fernandes",
-      "bio": "Criativa, engraçada e inteligente, Giseli gosta de ler, ouvir música no rádio FM e tomar café. Percy Jackson e O Senhor dos Anéis estão entre seus interesses, assim como Audrey Hepburn, os animais — especialmente os insetos —, a política e a história. Também gosta de ir a eventos de rock, não guarda rancor e é muito amorosa. “Pessoas, muito mais que coisas, devem ser ressuscitadas, revividas, resgatadas e redimidas; jamais jogue alguém fora” - Audrey Hepburn."
+      "bio": "Criativa, engraçada e inteligente, Giseli gosta de ler, ouvir música no rádio FM e tomar café. Percy Jackson e O Senhor dos Anéis estão entre seus interesses, assim como Audrey Hepburn, os animais — especialmente os insetos —, a política e a história. Também gosta de ir a eventos de rock, não guarda rancor e é muito amorosa. “Pessoas, muito mais que coisas, devem ser ressuscitadas, revividas, resgatadas e redimidas; jamais jogue alguém fora” - Audrey Hepburn.",
+      "imagem": "assets/autores/giseli.jpg",
+      "tipoImagem": "foto"
     },
     {
       "nome": "Alexandre Silva",
-      "bio": "Esforçado, humilde e determinado, Alexandre tem 18 anos. Nasceu no Rio Grande do Sul e morou em Santa Catarina por cinco anos. Gosta de tecnologia, futebol e jogos. Nas histórias, prefere aventura e ficção científica. Seu maior sonho é conquistar seus objetivos, ter sucesso profissional e dar orgulho à família."
+      "bio": "Esforçado, humilde e determinado, Alexandre tem 18 anos. Nasceu no Rio Grande do Sul e morou em Santa Catarina por cinco anos. Gosta de tecnologia, futebol e jogos. Nas histórias, prefere aventura e ficção científica. Seu maior sonho é conquistar seus objetivos, ter sucesso profissional e dar orgulho à família.",
+      "imagem": "assets/autores/alexandre.png",
+      "tipoImagem": "ilustracao"
     },
     {
       "nome": "Thaís da Silva Nogueira",
-      "bio": "Um chimarrão com a mãe e um passeio em família fazem parte do tempo livre de Thaís. Inteligente e abençoada, quer se formar em Pedagogia e realizar suas conquistas. Gosta de histórias de comédia e mistério e de estar presente para quem precisa dela. Guarda a família num lugar especial: “Minha família, meu maior presente!”"
+      "bio": "Um chimarrão com a mãe e um passeio em família fazem parte do tempo livre de Thaís. Inteligente e abençoada, quer se formar em Pedagogia e realizar suas conquistas. Gosta de histórias de comédia e mistério e de estar presente para quem precisa dela. Guarda a família num lugar especial: “Minha família, meu maior presente!”",
+      "imagem": "assets/autores/thais.png",
+      "tipoImagem": "ilustracao"
     },
     {
       "nome": "Schimitz",
-      "bio": "Schimitz é dedicado, esforçado e curioso. Gosta de ler, escrever e mergulhar em histórias de aventura, mistério e ficção científica. No tempo livre, joga videogame, faz musculação e gosta de estar com a namorada. Para o futuro, quer conseguir um bom emprego e, se possível, se qualificar."
+      "bio": "Schimitz é dedicado, esforçado e curioso. Gosta de ler, escrever e mergulhar em histórias de aventura, mistério e ficção científica. No tempo livre, joga videogame, faz musculação e gosta de estar com a namorada. Para o futuro, quer conseguir um bom emprego e, se possível, se qualificar.",
+      "imagem": "assets/autores/diego.png",
+      "tipoImagem": "ilustracao"
     },
     {
       "nome": "Koch",
-      "bio": "No tempo livre, Koch gosta de jogar e andar de bicicleta. Entre suas histórias preferidas estão as de terror, suspense e cotidiano. Se a pergunta é como se descrever em três palavras, ele já tem a resposta: “Amanhã eu resolvo.”"
+      "bio": "No tempo livre, Koch gosta de jogar e andar de bicicleta. Entre suas histórias preferidas estão as de terror, suspense e cotidiano. Se a pergunta é como se descrever em três palavras, ele já tem a resposta: “Amanhã eu resolvo.”",
+      "imagem": "assets/autores/koch.webp",
+      "tipoImagem": "foto"
     },
     {
       "nome": "Laceyfrost",
-      "bio": "Dos fóruns da internet aos sites e jogos antigos, Laceyfrost gosta de explorar. Também gosta de animes, vídeos no YouTube e histórias de terror e suspense. Legal, leal e atento ao que os outros têm a dizer, ficaria feliz se você puxasse conversa."
+      "bio": "Dos fóruns da internet aos sites e jogos antigos, Laceyfrost gosta de explorar. Também gosta de animes, vídeos no YouTube e histórias de terror e suspense. Legal, leal e atento ao que os outros têm a dizer, ficaria feliz se você puxasse conversa.",
+      "imagem": "assets/autores/leo.jpg",
+      "tipoImagem": "foto"
     },
     {
       "nome": "Anne Gabriele de Morais Talavera",
-      "bio": "No desenho, a criatividade de Anne ganha forma. Entre suas histórias preferidas estão as de terror, suspense e fantasia. Para quem a lê, Anne deixa um desejo: que, acima de tudo, a gente tenha esperança."
+      "bio": "No desenho, a criatividade de Anne ganha forma. Entre suas histórias preferidas estão as de terror, suspense e fantasia. Para quem a lê, Anne deixa um desejo: que, acima de tudo, a gente tenha esperança.",
+      "imagem": "assets/autores/anne.png",
+      "tipoImagem": "ilustracao"
     },
     {
       "nome": "Jhuli Grégori",
-      "bio": "Jhuli Grégori é professora estagiária de Língua Portuguesa, estudante de Letras da UFRGS e mãe da Luna. Pesquisa literatura de terror e horror, além de literatura infantil. Gosta de ler e escrever no Substack e se interessa pelas literaturas asiática, russa e brasileira. Cinéfila, gosta de descobrir histórias também no cinema. No tempo livre, estuda, lê e fica com a família."
+      "bio": "Jhuli Grégori é professora estagiária de Língua Portuguesa, estudante de Letras da UFRGS e mãe da Luna. Pesquisa literatura de terror e horror, além de literatura infantil. Gosta de ler e escrever no Substack e se interessa pelas literaturas asiática, russa e brasileira. Cinéfila, gosta de descobrir histórias também no cinema. No tempo livre, estuda, lê e fica com a família.",
+      "imagem": "assets/autores/jhuli.jpg",
+      "tipoImagem": "foto"
     }
   ]
 };

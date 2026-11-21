@@ -1,7 +1,7 @@
 window.VOZES_CONFIG = {
   "formVotacao": "https://docs.google.com/forms/d/1BLSX9y6ta_XyNPFyb38hblPDUfioGnXrdkc1sCBl5vU/viewform",
   "formCronica": "https://docs.google.com/forms/d/e/1FAIpQLSfQuIgFkugF1ujZrq-dxsZIX9rHz8QdNEgJ56ScjTaeuETsRg/viewform",
-  "ebookPdf": "",
+  "ebookPdf": "assets/Fora-da-Margem-leitura.pdf",
   "cronicas": [
     {
       "titulo": "Crônicas: Reflexões",
